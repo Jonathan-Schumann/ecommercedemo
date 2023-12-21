@@ -1,0 +1,37 @@
+GET HTTP://localhost:8080/api/produtos
+
+###
+GET HTTP://localhost:8080/api/produtos/2
+
+###
+
+POST HTTP://localhost:8080/api/produtos
+Content-Type: application/json
+
+{
+    "nomeProduto": "TV Smart",
+    "descricao": "Samsung",
+    "valor": 4999.9,
+    "quantidadeEstoque": 20
+}
+
+###
+
+PUT HTTP://localhost:8080/api/produtos/1
+Content-Type: application/json
+
+{
+    "nomeProduto": "Air Fryer",
+    "descricao": "4L, Philips",
+    "valor": 299.9,
+    "quantidadeEstoque": 10
+}
+
+###
+
+DELETE HTTP://localhost:8080/api/produtos/1
+
+
+
+
+

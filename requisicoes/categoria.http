@@ -1,0 +1,37 @@
+GET HTTP://localhost:8080/api/categorias
+
+###
+GET HTTP://localhost:8080/api/categorias/1
+
+###
+
+POST HTTP://localhost:8080/api/categorias
+Content-Type: application/json
+
+{
+    "tipo": "Eletronicos",
+    "produto": {
+        "id": 2
+    }
+}
+
+###
+
+PUT HTTP://localhost:8080/api/categorias/1
+Content-Type: application/json
+
+{
+    "tipo": "Eletrodomésticos",
+    "produto": {
+        "id": 1
+    }
+}
+
+###
+
+DELETE HTTP://localhost:8080/api/categorias/2
+
+
+
+
+
